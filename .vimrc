@@ -40,7 +40,7 @@ set ruler
 set backspace=indent,eol,start
 set laststatus=2
 set relativenumber
-set undofile
+" set undofile
 
 " Searching
 " These two lines fix Vim’s horribly broken default regex “handling” by
@@ -86,3 +86,6 @@ nnoremap k gk
 " ö goes to the end of the line
 nnoremap ö 0
 nnoremap ä $
+
+" let's try mapping C-c to Esc...
+nnoremap <C-c> <Esc>
